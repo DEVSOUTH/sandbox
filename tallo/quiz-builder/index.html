@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="assets/css/smoothproducts.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script src="https://formbuilder.online/assets/js/form-builder.min.js"></script>
+      <script>
+  jQuery(function($) {
+    $(document.getElementById('fb-editor')).formBuilder();
+  });
+  </script>
 </head>
 
 <body>
@@ -25,12 +30,6 @@
     <main class="page landing-page">
         <section class="clean-block clean-hero" style="color: rgb(218,239,247);height: 100vh;">This is a test
             <div id="fb-editor"></div>
-
-  <script>
-  jQuery(function($) {
-    $(document.getElementById('fb-editor')).formBuilder();
-  });
-  </script>
             <div class="text"></div>
         </section>
     </main>
